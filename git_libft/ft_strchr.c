@@ -18,8 +18,6 @@ char	*ft_strchr(const char *s, int c)
 	char	*ptr;
 
 	i = 0;
-	if (!s)
-		return (NULL);
 	if ((unsigned char)c == '\0')
 		return ((char *)&s[ft_strlen(s)]);
 	while (s[i] != '\0')
